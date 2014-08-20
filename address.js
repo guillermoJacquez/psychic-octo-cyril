@@ -5,4 +5,8 @@ function address(){
 	this.city
 	this.state
 	this.zip
+	
+	this.getFullAddress = function(){
+		return this.line1 + " " this.line2;
+	}
 }
