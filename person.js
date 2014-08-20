@@ -1,9 +1,10 @@
 function person()
 {
-	this.id = 0;
-	this.status = 0;
-	this.firstName = "";
-	this.lastName = "";
+	this.id;
+	this.status;
+	this.firstName;
+	this.lastName;
+	this.gender;
 
 	this.getFullName = function(){
 		return this.firstName + " " + this.lastName;
