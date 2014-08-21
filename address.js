@@ -6,7 +6,6 @@ function address(type){
 	// Address Lines
 	this.line1;
 	this.line2;
-	this.line3;
 	
 	// City State Zip
 	this.city;
