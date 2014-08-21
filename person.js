@@ -7,6 +7,7 @@ function person(id, address)
 	this.gender;
 	this.address = address;
 	this.birthday;
+	this.type;
 
 	this.getFullName = function(){
 		return this.firstName + " " + this.lastName;

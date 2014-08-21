@@ -6,7 +6,6 @@ function address(type){
 	// Address Lines
 	this.line1;
 	this.line2;
-	this.line3;
 	
 	// City State Zip
 	this.city;
@@ -18,7 +17,7 @@ function address(type){
 	
 	// Get First Line
 	this.getAddress = function(){
-		return this.line1 + " " + this.line2 + " " + this.line3;
+		return this.line1 + " " + this.line2;
 	}
 	
 	// Get City State Zip
