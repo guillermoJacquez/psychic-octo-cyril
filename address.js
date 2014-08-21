@@ -1,18 +1,22 @@
 function address(){
 	
+	// Address Lines
 	this.line1;
 	this.line2;
 	this.line3;
 	
+	// City State Zip
 	this.city;
 	this.state;
 	this.zipCode;
 	
-	this.getFullAddress = function(){
-		return this.line1 + " " + this.line2;
+	// Get First Line
+	this.getAddress = function(){
+		return this.line1 + " " + this.line2 + " " + this.line3;
 	}
 	
-	this.getFullCityStateZip = function(){
+	// Get City State Zip
+	this.getCityStateZip = function(){
 		return this.city + " " + this.state + ", " + this.zipCode;
 	}
 	
