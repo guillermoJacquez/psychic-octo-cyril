@@ -1,6 +1,6 @@
 function address(type){
 	
-	// address type [home, shipping]
+	// Address type [home, shipping]
 	this.type = type;
 	
 	// Address Lines
@@ -12,6 +12,9 @@ function address(type){
 	this.city;
 	this.state;
 	this.zipCode;
+	
+	// Country
+	this.country
 	
 	// Get First Line
 	this.getAddress = function(){
