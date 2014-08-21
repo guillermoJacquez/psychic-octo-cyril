@@ -1,4 +1,7 @@
-function address(){
+function address(type){
+	
+	// address type [home, shipping]
+	this.type = type;
 	
 	// Address Lines
 	this.line1;
