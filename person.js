@@ -1,6 +1,6 @@
-function person(address)
+function person(id, address)
 {
-	this.id;
+	this.id = id;
 	this.status;
 	this.firstName;
 	this.lastName;
